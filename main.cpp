@@ -26,7 +26,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓更新処理ここから
 		///
-		さだｓｄさｄ
+		
 		///
 		/// ↑更新処理ここまで
 		///
