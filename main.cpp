@@ -1,6 +1,6 @@
 #include <Novice.h>
 
-const char kWindowTitle[] = "TD1_タイトル";
+const char kWindowTitle[] = "TD1_二回目_タイトル";
 const int kWindowWidth = 1280;
 const int kWindowHeight = 720;
 
@@ -13,7 +13,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
 	char preKeys[256] = {0};
-
+	
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
 		// フレームの開始
@@ -34,7 +34,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
-
+		
 		///
 		/// ↑描画処理ここまで
 		///
